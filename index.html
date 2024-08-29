@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">My Portfolio</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="profile.jpg" alt="Proflie Picture">
+        <p>What's up I'm Chonlatee, This is a website about my identity. </p>
+    </section>
+
+<div class="section">    
+    <section id="services">
+        <h2>Services</h2>
+        <div class="service-item">
+            <h3>Wep Development</h3>
+            <p>ผมสร้างเว็บไซต์ที่ตอบสนองและโต้ตอบได้</p>
+        </div>
+        <div class="service-item">
+            <h3>Graphic Design</h3>
+            <p>การสร้างเนื้อหาภาพเพื่อสื่อสารข้อความ</p>
+        </div>
+
+    <section id="portfolio">
+        <h2>My Work</h2>
+        <div class="portfolio-item">
+            <img class="project1" src="project 1.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>โปรเจกต์แรกที่ผมทำเกี่ยวกับ To-Do-List </p>
+        </div>
+    </section>
+</div>
+    <section id="contact" class="footer">
+        <h2>Contact Me</h2>
+        <form action="/submit" method="post">
+            <label for="name">Name : </label>
+            <input placeholder="ชื่อ" type="text" id="name" name="name">
+
+            <label for="email">Email : </label>
+            <input placeholder="กรอกอีเมล์" type="text" id="email" name="email">
+
+            <label for="message">Message : </label>
+            <textarea placeholder="กรอกข้อความถึงเรา" id="message" name="message"></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- ส่วนของ Footer -->
+    <footer id="last">
+        <p>@ 2024 My Portfolio. All right reserved.</p>
+        <p>Email: contact@example.com | Phone: +12345678910</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/DookDigy">My Facebook</a>
+            <a href="https://www.instagram.com/dookdik.k/">My Instagram</a>
+        </div>
+    </footer>
+    
+
+</body>
+</html>

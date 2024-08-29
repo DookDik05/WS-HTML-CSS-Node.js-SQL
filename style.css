@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #431010;
+}
+
+header {
+    background-color: #232121;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+#about {
+    padding: 50px;
+    background-color: #c5c5c5;
+    text-align: center;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#about p {
+    font-size: 18px;
+    color: #696565;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) { 
+    header {
+        text-align: center;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    #about {
+        padding: 20px;
+    }
+    
+    #about img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #about p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
+
+.section {
+    color: #c5c5c5;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    right: 100px;
+
+}
+
+.project1 {
+    width: 500px;
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255 , 255, 0.9) 0px 5px 10px;
+    
+}
+
+.service-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #aaa9a9;
+    
+}
+
+input:focus::placeholder{
+    color: transparent;
+}
+
+input::placeholder{
+    font-size: 14px;
+    color: #5c3a3a;
+}
+
+.footer  {
+    color: aliceblue;
+}
+
+#last {
+    color: aliceblue;
+}
+
+textarea {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #aaa9a9;
+    
+}
+
+button {
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px; ;
+    margin-left: 1em;
+    width: 100px;
+}
+
+button:hover{
+    background-color: #e06666;
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+
